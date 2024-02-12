@@ -29,7 +29,7 @@ Fitur utama nodejs:
     kita bisa ngatur binary
 3. http & https
     bisa digunakan untuk network juga contohnya seperti mengirim request dan menerima respons
-4. REPL (read evaluate print and loop)
+4. REPL (read evaluate print and loop)  
     gunanya untuk mengeksekusi node kita lewat terminal
 5. Console
     gunanya untuk menggunakan console.log
@@ -53,3 +53,4 @@ node js cocok untuk:
     bisa membuat program untuk cli
 7. MERN, MEAN, MEVN 
     itu semua singkatan dari MongoDB, Express, nama framework nya seperti React, dan nodejs
+
