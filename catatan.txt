@@ -1,0 +1,55 @@
+node js itu bukan bahasa pemograman, melainkan adalah runtime
+apa itu runtime? runtime itu adalah tempat dimana kita mengeksekusi kode kita / menjalankan kode kita
+
+node juga ada untuk membuat javascript bisa kerja diluar browser jadi yang awalnya kita hanya bisa menambahkan sesuatu didalam browser saja
+oleh node si lingkupannya diluaskan lagi keluar itu, tepatnya sekarang berada di sistem operasi.
+
+karena browser engine nya sekarang ada di sistem operasi, sekarang kita jadi bisa mengakses memory, file system, i/o, network, dll
+
+karakteristik nodejs:
+1. asynchronous dan event driven
+    apa itu asynchronous? asynchronous artinya adalah teknik pemograman yang dimana jika ada satu fungsi yang sedang berjalan kita masih bisa menjalankan
+    fungsi lainya.
+    event driven artinya adalah pemograman yang alur kerjanya ditentukan oleh sebuah event
+2. non blocking
+    artinya si kode akan tetap kerja walaupun kode didepanya belum selesai
+3. single threaded dan highly scalable
+    dia hanya bisa mengerjakan satu hal dalam satu proses tertentu 
+4. cross platform
+    dia bisa digunakan di platform manapun
+5. MIT license
+    dia open source dengan license nya MIT
+6. NPM (Node package manager)
+    kumpulan library dimana kita bisa tenpatkan ke node kita
+
+Fitur utama nodejs:
+1. file system
+    ngakses file system singkatnya
+2. buffer
+    kita bisa ngatur binary
+3. http & https
+    bisa digunakan untuk network juga contohnya seperti mengirim request dan menerima respons
+4. REPL (read evaluate print and loop)
+    gunanya untuk mengeksekusi node kita lewat terminal
+5. Console
+    gunanya untuk menggunakan console.log
+6. Crypto
+    cryptography
+7. Zlib
+    gunanya untuk kompresi
+
+node js cocok untuk:
+1. dynamic single page (SPA)
+    aplikasi yang isinya hanya satu halaman tetapi secara dinamis berubah ubah
+2. realtime app (chat, game multiplayer)
+    karena bisa pertukaran data secara real time
+3. API
+    seperti membuat res api
+4. Streaming app
+    seperti streaming lagu dan video
+5. Microservice
+    apllikasi besar yang didalamnya banyak aplikasi aplikasi
+6. Command line tool
+    bisa membuat program untuk cli
+7. MERN, MEAN, MEVN 
+    itu semua singkatan dari MongoDB, Express, nama framework nya seperti React, dan nodejs
